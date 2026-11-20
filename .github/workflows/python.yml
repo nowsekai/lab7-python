@@ -19,3 +19,8 @@ jobs:
           python-version: '3.x'
 
       - name: Run script
+        run: python main.py
+cd C:\Users\Cybersport\Desktop\lab7-python
+git add .github/workflows/python.yml
+git commit -m "fix: repair workflow syntax #2"
+git push
